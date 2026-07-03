@@ -1,0 +1,13 @@
+streamlit>=1.35
+anthropic>=0.40
+
+# Optional AI providers (only needed if you switch providers in Settings)
+openai>=1.40
+google-genai>=0.3
+
+# Voice input
+streamlit-mic-recorder>=0.0.8
+SpeechRecognition>=3.10
+
+# Voice output
+gTTS>=2.5
