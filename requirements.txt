@@ -1,4 +1,4 @@
-# --- Core Streamlit Framework ---
+#--- Core Streamlit Framework ---
 streamlit>=1.35.0
 
 # --- Voice & Audio Processing ---
@@ -10,7 +10,6 @@ SpeechRecognition>=3.10.4
 google-genai>=0.1.0
 openai>=1.30.0
 
-# --- Utility & OS Orchestration ---
-pywin32>=306; sys_platform == 'win32'
-pyautogui>=0.9.54
+# --- Cloud-Safe OS Utilities ---
 requests>=2.32.0
+
