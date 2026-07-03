@@ -1,0 +1,16 @@
+# --- Core Streamlit Framework ---
+streamlit>=1.35.0
+
+# --- Voice & Audio Processing ---
+streamlit-mic-recorder>=0.0.20
+gTTS>=2.5.1
+SpeechRecognition>=3.10.4
+
+# --- AI Models & LLM Brains ---
+google-genai>=0.1.0
+openai>=1.30.0
+
+# --- Utility & OS Orchestration ---
+pywin32>=306; sys_platform == 'win32'
+pyautogui>=0.9.54
+requests>=2.32.0
